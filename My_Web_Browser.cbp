@@ -39,7 +39,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="`wx-config-gtk3 --cflags`" />
-			<Add directory="/usr/include/wx-3.0" />
+			<Add directory="/usr/include/wx" />
 		</Compiler>
 		<Linker>
 			<Add option="`wx-config-gtk3 --libs`" />
